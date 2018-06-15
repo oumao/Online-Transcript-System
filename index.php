@@ -1,35 +1,33 @@
 <?php include 'database.php'; ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Welcome to Online Transcript System</title>
 	<style type="text/css">
 		body{
-			background: #CEB7B3;
+			background: skyblue;
 		}
-		h3{
+		h2{
 			text-align: center;
+			color: white;
 		}
 		div > h4{
 			text-align: center;
 		}
+		.card-action{
+			text-align: center;
+		}
 	</style>
 	<meta name="viewport" content="width=device-wdth, initial-scale=1.0">
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	
 </head>
 <body>
 <div class="container">
 <header>
-<h3>Welcome to Online Transcript System</h3>
+<h2>Welcome to Online Transcript System</h2>
 </header>
-<div>
-	<form class="col s12">
-		<h4>Login</h4>
-	
-	</form>
-</div>
-</div>
 
-
+</div>
 </body>
 </html>
