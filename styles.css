@@ -1,5 +1,6 @@
 		.container-fluid{
 			background: gainsboro;
+			height: 700px;
 		}
 		header{
 			background:		#B0C4DE;
@@ -22,8 +23,8 @@
 		.stud{
 			text-align: center;	
 			padding: 10px;
-			background:	white;
-			box-shadow: 1px 1px 2px black;
+			background:	white; 
+			box-shadow: 2px 2px 2px black;
 				
 		}
 		.stud a{
@@ -38,6 +39,23 @@
 			text-decoration: none;
 			transition: 1s;
 		}
-		.footer{
+		.footer_stud{
 			text-align: center;
+			color: white;
+			
+		}
+		.footer_index{
+			text-align: center;
+			color: black;
+			
+		}
+		.student-body{
+			background: #3c3c3c;
+		}
+
+		.alert-link_stud:hover{
+			background: white;
+			color: black;
+			text-decoration: none;
+			padding: 10px;
 		}

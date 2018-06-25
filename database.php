@@ -1,7 +1,20 @@
 <?php
 
-$con = mysqli_connect("localhost","root","");
+class Database{
 
-if(mysqli_connect_errno()){
-    die('couldn\'t connect to the database'.mysqli_connect_error());
+//constructor function
+	private $pdo;
+
+public function __construct($pdo){
+	$this->pdo = $pdo;
+}	
+
+function getData(){
+	$query = $this->pdo->prepare('SELECT * FROM transcript_system');
+	$query->execute();
+	return $query->fetchAll();
 }
+
+}
+
+?>
